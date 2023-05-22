@@ -1,0 +1,39 @@
+
+application {
+  config {
+    baseName springService,
+    applicationType monolith,
+    packageName com.rak,
+    authenticationType jwt,
+    prodDatabaseType mysql,
+  }
+  entities *
+}
+
+entity Customer {
+   customerId String,
+}
+
+entity Product {
+  name String,
+}
+
+entity Transaction {
+	transactionId String,
+}
+
+entity Cashier {
+	cashierId String,
+    name String,
+    cellNumber String,
+    email String,
+    joiningDate String,
+}
+
+relationship OneToMany {
+ Product to Transaction{ProductId},
+ Product to Customer{ProductId}
+ Customer to Transaction{CustomerName}
+ Cashier to Transaction{SalePrice}
+}
+    

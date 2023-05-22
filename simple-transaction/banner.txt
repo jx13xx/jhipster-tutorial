@@ -1,0 +1,10 @@
+
+${AnsiColor.RED}    ____  ___    __ __    ______          __                __            _          
+${AnsiColor.RED}   / __ \/   |  / //_/   /_  __/__  _____/ /_  ____  ____  / /___  ____ _(_)__  _____
+${AnsiColor.RED}  / /_/ / /| | / ,<       / / / _ \/ ___/ __ \/ __ \/ __ \/ / __ \/ __ `/ / _ \/ ___/
+${AnsiColor.RED} / _, _/ ___ |/ /| |     / / /  __/ /__/ / / / / / / /_/ / / /_/ / /_/ / /  __(__  ) 
+${AnsiColor.RED}/_/ |_/_/  |_/_/ |_|    /_/  \___/\___/_/ /_/_/ /_/\____/_/\____/\__, /_/\___/____(_)
+                                                                /____/               
+
+${AnsiColor.BRIGHT_BLUE}:: JHipster ?~_?~S  :: Running Spring Boot ${spring-boot.version} ::
+:: https://www.rakbank.test.tech ::${AnsiColor.DEFAULT}

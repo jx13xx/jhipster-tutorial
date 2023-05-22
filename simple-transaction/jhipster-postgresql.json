@@ -1,0 +1,11 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "databaseType": "postgresql",
+      "devDatabaseType": "postgresql",
+      "prodDatabaseType": "postgresql",
+      "enableHibernateCache": false,
+      "enableInfinispanSecondLevelCache": false
+    }
+  }
+}
