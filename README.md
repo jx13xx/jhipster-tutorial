@@ -32,7 +32,7 @@ Follow these steps to set up the JHipster project locally:
  cd jhipster-tutorial
 ```
 
-3. Build the Dockerfile with all prerequisite:
+3. Build the Dockerfile:
  ```shell
  docker build -t jhipster-image .
 ```
